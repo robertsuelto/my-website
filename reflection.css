@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container1 {
+    /* background-color: blue; */
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(pictures/kami.jpg);
+    background-position-y:-10px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    height: 15%;
+    padding: 20px 20px 0px 20px;
+    /* background-color: brown; */
+}
+
+.nav {
+    /* background-color: rgb(175, 194, 194); */
+    width: 50%;
+    padding-left: 445px;
+    position: relative;
+    left: 655px;
+    bottom: 15px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 50px;
+    text-align: right;
+}
+
+.nav ul li a i:hover {
+    text-shadow: 0px 0px 100px white;
+    scale: 1.2;
+}
+.logo {
+    width: 30px;
+}
+
+.abt {
+    /* background-color: aqua; */
+    width: 40%;
+    font-size: 35px;
+    position:relative;
+    left: 50px;
+    top: 360px;
+    color: white;
+    /* text-shadow: 0px 0px 15px black ; */
+
+}
+
+.abt p {
+    font-size: 20px;
+    /* text-shadow: 0px 0px 15px black; */
+
+}
+.rob {
+    width: 70%;
+    height: 27%;
+    background-color:#9ab1d2;
+    border-radius: 100px;
+    position: relative;
+    bottom: 135px;
+    left: 1185px;
+    transition: transform 1.5s;
+    outline: solid 2px #9ab1d2 ;
+}
+.rob:hover {
+    transform: translateX(-650px);
+    /* box-shadow: 0px 0px 20px 1px rgb(36, 35, 35); */
+    outline-offset: 2px;
+}
+.card1 {
+    width: 160px;
+    height: 160px;
+    /* background-color: black; */
+    background-image: url(pictures/rob.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    /* box-shadow: 0px 0px 20px 2px black; */
+}
+
+.robdes {
+    width: 60%;
+    height: 160px;
+    text-align: justify;
+    text-indent:  30px;
+    /* background-color: blue; */
+    position: relative;
+    left: 210px;
+    bottom: 145px;
+    color:#000000;
+    font-family: Helvetica;
+    font-size: 14px;
+    /* text-shadow: 0px 0px 15px black; */
+}
+.name1 {
+    /* background-color: palevioletred; */
+    width:25%;
+    height:30px;
+    font-size:18px;
+    position: relative;
+    bottom: 190px;
+    left: 550px;
+    color:rgb(0, 0, 0);
+    /* text-shadow: 0px 0px 15px black; */
+}
+.joan {
+    width: 70%;
+    height: 27%;
+    background-color:#363B19;
+    border-radius: 100px;
+    position: relative;
+    bottom: 120px;
+    left: 1185px;
+    transition: transform 1.5s;
+    outline: solid 2px #363B19 ;
+}
+.joan:hover {
+    transform: translateX(-650px);
+    /* box-shadow: 0px 0px 20px 1px rgb(36, 35, 35); */
+    outline-offset: 2px;
+}
+.card2 {
+    width: 160px;
+    height: 160px;
+    /* background-color: black; */
+    background-image: url(pictures/joanna.JPG);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.joandes {
+    width: 60%;
+    height: 160px;
+    text-align: justify;
+    text-indent:  30px;
+    /* background-color: blue; */
+    position: relative;
+    left: 210px;
+    bottom: 150px;
+    color:rgb(255, 255, 255);
+    /* text-shadow: 0px 0px 15px white; */
+    padding-top: 5px;
+}
+.name2 {
+    /* background-color: palevioletred; */
+    width:30%;
+    height:30px;
+    font-size:18px;
+    position: relative;
+    bottom: 190px;
+    left: 510px;
+    color:rgb(255, 255, 255);
+    /* text-shadow: 0px 0px 15px white; */
+}
+.carl {
+    width: 70%;
+    height: 27%;
+    background-color: #EC7A43;
+    border-radius: 100px;
+    position: relative;
+    bottom: 105px;
+    left: 1185px;
+    transition: transform 1.5s;
+    outline: solid 2px #EC7A43 ;
+}
+.carl:hover {
+    transform: translateX(-650px);
+    /* box-shadow: 0px 0px 20px 1px rgb(36, 35, 35); */
+    outline-offset: 2px;
+    
+}
+.card3 {
+    width: 160px;
+    height: 160px;
+    /* background-color: black; */
+    background-image: url(pictures/carl.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.carldes {
+    width: 60%;
+    height: 160px;
+    text-align: justify;
+    text-indent:  30px;
+    /* background-color: blue; */
+    position: relative;
+    left: 210px;
+    bottom: 150px;
+    color: black;
+    font-size: 14px;
+    /* text-shadow: 0px 0px 15px black; */
+}
+.name3 {
+    /* background-color: palevioletred; */
+    width:30%;
+    height:30px;
+    font-size:18px;
+    position: relative;
+    bottom: 190px;
+    left: 550px;
+    color:black;
+    /* text-shadow: 0px 0px 15px black; */
+}
+.abt h1 {
+    animation: float 3s ease-out infinite;
+}
+ @keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px)
+    }
+    100% {
+        transform: translateY(0px);
+    }
+ }

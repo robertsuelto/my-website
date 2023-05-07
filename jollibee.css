@@ -1,0 +1,706 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container1 {
+    /* background-color: blue; */
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.3)), url(pictures/jollibeehead.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    width: 100%;
+    height: 15%;
+    padding: 20px 20px 0px 20px;
+    /* background-color: brown; */
+}
+
+.nav {
+    /* background-color: rgb(175, 194, 194); */
+    width: 50%;
+    padding-left: 445px;
+    position: relative;
+    left: 655px;
+    bottom: 15px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 50px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.nav ul li a i:hover {
+    text-shadow: 0px 0px 100px white;
+    scale: 1.2;
+}
+
+.sec1 {
+    width: 220px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 70px;
+    top: 70px;
+    border-radius: 25px;
+    background-image: url(pictures/jollibeelogo.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 25px 1px black;
+}
+
+.sec2 {
+    width: 50%;
+    height: 150px;
+    /* background-color: blueviolet; */
+    position: relative;
+    left: 330px;
+    bottom: 85px;
+    padding-top: 20px;
+    line-height: 40px;
+}
+
+.sec3 {
+    width: 15%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 330px;
+    bottom: 130px;
+    border-radius: 25px;
+    text-align: center;
+    padding-left: 14px;
+    padding-top: 10px;
+    color: black;
+    font-size: 13px;
+    transition: transform 0.5s;
+}
+
+.sec3:hover {
+    transform: translateY(-3px);
+    background-color: rgb(218, 28, 28);
+    color: white;
+}
+
+body a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.sec2 h1 {
+    font-size: 65px;
+    color: white;
+    /* text-shadow: 0px 0px 13px black; */
+}
+
+.sec2 p {
+    color: white;
+    font-size: 15px;
+    text-shadow: 0px 0px 15px black;
+    padding: 5px;
+}
+
+.container2 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60vh;
+    padding: 20px;
+}
+
+.container3 {
+    /* background-color: rgb(56, 103, 190); */
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.7)), url(pictures/jbbestseller.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.des {
+    /* background-color: pink; */
+    width: 25%;
+    height: 80px;
+    padding-top: 22px;
+    border-radius: 25px;
+
+
+}
+
+.des h2 {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: rgb(12, 12, 12);
+}
+
+.mcdobros {
+    /* background-color: blue; */
+    width: 25%;
+    height: 250px;
+    border-radius: 25px;
+    position: relative;
+    top: 15px;
+    background-image: url(pictures/jbfounder.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.desinfo {
+    /* background-color: rgb(178, 182, 180); */
+    width: 25%;
+    height: 345px;
+    border-radius: 25px;
+    position: relative;
+    left: 340px;
+    bottom: 330px;
+    font-size: 15px;
+    padding: 27px;
+    text-align: justify;
+}
+
+.desinfo ul li {
+    font-weight: 700px;
+    padding-bottom: 3px;
+}
+
+.mcshop {
+    /* background-color: blueviolet; */
+    width: 27%;
+    height: 140px;
+    border-radius: 25px;
+    position: relative;
+    bottom: 675px;
+    left: 680px;
+    background-image: url(pictures/jbhistory1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.mcblck {
+    /* background-color: blueviolet; */
+    width: 20%;
+    height: 140px;
+    border-radius: 25px;
+    position: relative;
+    bottom: 816px;
+    left: 1045px;
+    background-image: url(pictures/jbcashier.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.desinfo2 {
+    /* background-color: goldenrod; */
+    width: 48%;
+    height: 188px;
+    border-radius: 25px;
+    position: relative;
+    bottom: 820px;
+    left: 680px;
+    padding: 25px;
+    ;
+}
+
+.desinfo2 ul {
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 25px;
+}
+
+.desinfo2 ul li {
+    padding-bottom: 3px;
+    font-weight: 500;
+}
+
+.sidepic {
+    /* background-color: yellow; */
+    width: 37%;
+    height: 100vh;
+    position: relative;
+    left: 65%;
+    bottom: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.3)), url(pictures/jbbestseller.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.sidepic:hover {
+    transform: translateX(-10px)
+}
+
+.bestseller {
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+}
+
+.bestseller h1 {
+    letter-spacing: 2px;
+}
+
+.frame1 {
+    width: 12%;
+    height: 200px;
+    /* background-color:pink; */
+    position: relative;
+    bottom: 620px;
+    left: 75px;
+}
+
+.food1 {
+    width: 100%;
+    height: 170px;
+    /* background-color:rgb(114, 38, 38); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-image: url(pictures/chickenjoy.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.food1:hover {
+    transform: translateY(-10px);
+}
+
+.name1 {
+    width: 100%;
+    height: 30px;
+    /* background-color:rgb(84, 38, 114); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+
+.frame2 {
+    width: 12%;
+    height: 200px;
+    /* background-color:pink; */
+    position: relative;
+    bottom: 820px;
+    left: 260px;
+}
+
+.food2 {
+    width: 100%;
+    height: 170px;
+    /* background-color:rgb(114, 38, 38); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-image: url(pictures/jollispag.webp);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.food2:hover {
+    transform: translateY(-10px);
+}
+
+.name2 {
+    width: 100%;
+    height: 30px;
+    /* background-color:rgb(84, 38, 114); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+
+.frame3 {
+    width: 12%;
+    height: 200px;
+    /* background-color:pink; */
+    position: relative;
+    bottom: 1020px;
+    left: 445px;
+}
+
+.food3 {
+    width: 100%;
+    height: 170px;
+    /* background-color:rgb(114, 38, 38); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-image: url(pictures/sundae.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.food3:hover {
+    transform: translateY(-10px);
+}
+
+.name3 {
+    width: 100%;
+    height: 30px;
+    /* background-color:rgb(84, 38, 114); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+
+.frame4 {
+    width: 12%;
+    height: 200px;
+    /* background-color:pink; */
+    position: relative;
+    bottom: 1220px;
+    left: 630px;
+}
+
+.food4 {
+    width: 100%;
+    height: 170px;
+    /* background-color:rgb(114, 38, 38); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-image: url(pictures/kiddiemeal.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.food4:hover {
+    transform: translateY(-10px);
+}
+
+.name4 {
+    width: 100%;
+    height: 30px;
+    /* background-color:rgb(84, 38, 114); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+
+.frame5 {
+    width: 12%;
+    height: 200px;
+    /* background-color:pink; */
+    position: relative;
+    bottom: 1195px;
+    left: 630px;
+}
+
+.food5 {
+    width: 100%;
+    height: 170px;
+    /* background-color:rgb(114, 38, 38); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-image: url(pictures/lumpia.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.food5:hover {
+    transform: translateY(-10px);
+}
+
+.name5 {
+    width: 100%;
+    height: 30px;
+    /* background-color:rgb(84, 38, 114); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+
+.frame6 {
+    width: 12%;
+    height: 200px;
+    /* background-color:pink; */
+    position: relative;
+    bottom: 1395px;
+    left: 445px;
+}
+
+.food6 {
+    width: 100%;
+    height: 170px;
+    /* background-color:rgb(114, 38, 38); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-image: url(pictures/burgersteak.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.food6:hover {
+    transform: translateY(-10px);
+}
+
+.name6 {
+    width: 100%;
+    height: 30px;
+    /* background-color:rgb(84, 38, 114); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+
+.frame7 {
+    width: 12%;
+    height: 200px;
+    /* background-color:pink; */
+    position: relative;
+    bottom: 1595px;
+    left: 260px;
+}
+
+.food7 {
+    width: 100%;
+    height: 170px;
+    /* background-color:rgb(114, 38, 38); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-image: url(pictures/yumburger.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.food7:hover {
+    transform: translateY(-10px);
+}
+
+.name7 {
+    width: 100%;
+    height: 30px;
+    /* background-color:rgb(84, 38, 114); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+
+.frame8 {
+    width: 12%;
+    height: 200px;
+    /* background-color:pink; */
+    position: relative;
+    bottom: 1795px;
+    left: 75px;
+}
+
+.food8 {
+    width: 100%;
+    height: 170px;
+    /* background-color:rgb(114, 38, 38); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-image: url(pictures/peachmangopie.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.food8:hover {
+    transform: translateY(-10px);
+}
+
+.name8 {
+    width: 100%;
+    height: 30px;
+    /* background-color:rgb(84, 38, 114); */
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+
+.mcdelivery {
+    background-color: rgb(104, 83, 53);
+    width: 15%;
+    height: 50px;
+    position: relative;
+    bottom: 1700px;
+    /* padding-left: 100px; */
+    padding: 0px;
+}
+
+.button {
+    width: 15%;
+    height: 40px;
+    /* background-color: blueviolet; */
+    position: relative;
+    bottom: 1760px;
+    left: 590px;
+
+}
+
+.order {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 12px;
+    background-color: white;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.order:hover {
+    transform: translateY(-5px);
+    background-color: rgb(218, 28, 28);
+    color: white;
+}
+
+.container4 {
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(226, 24, 24);
+    /* background-image: url(pictures/mcbg5.jpg);
+    background-position: center;
+    background-size: contain; */
+    overflow: hidden;
+}
+
+.vid1 {
+    border-radius: 0px;
+    box-shadow: 0px 0px 25px 1px black;
+    position: relative;
+    left: 55px;
+    top: 40px;
+}
+
+.vid2 {
+    border-radius: 0px;
+    box-shadow: 0px 0px 25px 1px black;
+    position: relative;
+    left: 75px;
+    top: 40px;
+}
+
+.vid3 {
+    border-radius: 0px;
+    box-shadow: 0px 0px 25px 1px black;
+    position: relative;
+    left: 95px;
+    top: 40px;
+}
+
+.m {
+    width: 9%;
+    height: 110px;
+    background-image: url(pictures/jollibeelogo.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: blue; */
+    position: relative;
+    left: 1050px;
+    bottom: 100px;
+    border-radius: 15px;
+}
+
+.mdes {
+    width: 50%;
+    height: 60px;
+    /* background-color: aquamarine; */
+    position: relative;
+    left: 215px;
+    bottom: -100px;
+    padding: 10px;
+    text-align: justify;
+    font-style: italic;
+    color: white;
+}
+
+.vids {
+    width: 90%;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: -1050px;
+    bottom: 90px;
+    padding: 10px;
+    border-radius: 30px;
+    transition: transform 0.5s;
+}
+
+.vids:hover {
+    transform: translateX(1060px);
+}
+
+.backtop {
+    width: 13%;
+    height: 45px;
+    background-color: rgb(221, 207, 4);
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 49px;
+    padding-top: 15px;
+    position: relative;
+    bottom: -50px;
+    left: 1000px;
+    cursor: pointer;
+}
+
+.oval {
+    background-color: rgb(37, 37, 37);
+    width: 1%;
+    height: 60px;
+    border-radius: 25px;
+    position: relative;
+    bottom: 175px;
+    left: 1180px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

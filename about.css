@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container1 {
+    background-color: blue;
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.3)), url(pictures/ABT\ US\ hehe.jpg);
+    background-position-y:-10px;
+    background-size: cover;
+}
+
+.navbar {
+    width: 100%;
+    height: 15%;
+    padding: 20px 20px 0px 20px;
+    /* background-color: brown; */
+}
+
+.nav {
+    /* background-color: rgb(175, 194, 194); */
+    width: 50%;
+    padding-left: 445px;
+    position: relative;
+    left: 655px;
+    bottom: 15px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 50px;
+    text-align: right;
+}
+
+.nav ul li a i:hover {
+    text-shadow: 0px 0px 100px white;
+    scale: 1.2;
+}
+.logo {
+    width: 30px;
+}
+
+.abt {
+    /* background-color: aqua; */
+    width: 40%;
+    font-size: 35px;
+    position:relative;
+    left: 30px;
+    top: 120px;
+    color: white;
+
+}
+
+.abt p {
+    font-size: 20px;
+}
+.container2 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 35vh;
+
+}
+.mis {
+    /* background-color: aliceblue; */
+    position: relative;
+    font-size:25px;
+    top: 35px;
+    width:50%;
+    text-align: center;
+    color: rgb(223, 84, 33);
+    font-weight: 900;
+
+}
+.vis {
+    /* background-color: pink; */
+    width: 50%;
+    font-size: 25px;
+    position: relative;
+    left:50%;
+    top:-11px;
+    text-align: center;
+    color: rgb(223, 84, 33)
+
+}
+.mis2 {
+    width: 50%;
+    padding: 35px;
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.vis2 {
+    width: 50%;
+    padding: 35px;
+    position: relative;
+    bottom:125px;
+    left:50%;
+    font-size: 20px;
+    text-align: center;
+}
+.container3 {
+    background-color: black;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+.container3 p {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top:40px ;
+    font-weight: 500;
+}
+.card1 {
+    width:220px;
+    height: 220px;
+    border-radius: 25px;
+    background-image: url(pictures/rob.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+.card2 {
+    width:220px;
+    height: 220px;
+    border-radius: 25px;
+    background-image: url(pictures/joanna.JPG);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 570px;
+    top: -165px;
+}
+.card3 {
+    width:220px;
+    height: 220px;
+    border-radius: 25px;
+    background-image: url(pictures/carl.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 940px;
+    top: -385px;
+}
+.name1 {
+    /* background-color: pink; */
+    width:26%;
+    height: 90px;
+    position: relative;
+    bottom:370px;
+    left: 130px;
+}
+.name2 {
+    /* background-color: pink; */
+    width:26%;
+    height: 90px;
+    position: relative;
+    bottom:460px;
+    left: 505px;
+}
+.name3 {
+    /* background-color: pink; */
+    width:26%;
+    height: 90px;
+    position: relative;
+    bottom:550px;
+    left: 875px;
+}
+.nrob {
+    text-align: center;
+    /* background-color: aqua; */
+    width:100%;
+    height:40%;
+    font-size: 20px;
+    padding-top: 4px;
+    color: white;
+}
+.contacts {
+    width:100%;
+    height: 50%;
+    /* background-color: olive; */
+    align-items: center;
+    padding-left: 90px;
+}
+.contacts ul {
+    display: flex;
+    list-style: none;
+}
+.contacts ul li {
+   padding-right: 10px;
+   font-size: 17px;
+}
+
+.con1 {
+    width:35px;
+    height: 35px;
+    background-color:black;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor:pointer;
+}
+.con1:hover {
+    background-color: rgb(20, 136, 202);
+    border: 1px solid rgb(20,136,202);
+    outline-offset: 2px;
+    outline: solid 2px rgb(20, 136, 202)
+}
+.con2 {
+    width:35px;
+    height: 35px;
+    background-color:black;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor:pointer;
+}
+.con2:hover {
+    background-color: rgb(204, 33, 33);
+    border: 2px solid rgb(204, 33, 33);
+    outline-offset: 2px;
+    outline: solid 2px rgb(204, 33, 33)
+}
+.con3 {
+    width:35px;
+    height: 35px;
+    background-color:black;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor:pointer;
+
+}
+.con3:hover {
+    background-color: rgb(25, 86, 252);
+    border: 2px solid rgb(25, 86, 252);
+    outline-offset: 2px;
+    outline: solid 2px rgb(25, 86, 252)
+}
+.con4 {
+    width:35px;
+    height: 35px;
+    background-color:black;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor:pointer;
+
+}
+.con4:hover {
+    background-color: rgb(201, 47, 175);
+    border: 2px solid rgb(201 47, 175);
+    outline-offset: 2px;
+    outline: solid 2px rgb(201, 47, 175)
+}
+.con1 i {
+   padding-left: 11px;
+   padding-top: 8px
+}
+.con2 i {
+   padding-left: 8px;
+   padding-top: 8px
+}
+.con3 i {
+   padding-left: 9px;
+   padding-top: 8px
+}
+.con4 i {
+   padding-left: 9px;
+   padding-top: 8px
+}
+
+.abtbacktop {
+    position: relative;
+    bottom: 550px;
+    left: 1220px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.abtbacktop p {
+    position: relative;
+    bottom:25px;
+}
+html {
+    scroll-behavior: smooth;
+}
